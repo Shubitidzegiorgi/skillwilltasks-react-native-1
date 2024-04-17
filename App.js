@@ -25,12 +25,11 @@ export default function Example() {
           <Text style={styles.title}>
             Plan your day{'\n'}with{' '}
             <View style={styles.appName}>
-              <Text style={styles.appNameText}>MyApp</Text>
+              <Text style={styles.appNameText}>DailyPlan</Text>
             </View>
           </Text>
           <Text style={styles.text}>
-            Aliqua ullamco incididunt elit labore consequat ipsum sunt
-            exercitation aliqua duis nulla et qui fugiat
+          DailyPlan is a versatile productivity app designed to streamline your daily routines, tasks, and goals. Whether you're managing a busy schedule, organizing personal projects, or optimizing your time, DailyPlan+ provides the tools you need to stay focused, efficient, and motivated throughout the day.
           </Text>
         </View>
 
@@ -58,10 +57,11 @@ const styles = StyleSheet.create({
     fontWeight: '500',
     color: '#281b52',
     textAlign: 'center',
-    marginBottom: 14,
+    marginBottom: 20,
     lineHeight: 40,
   },
   text: {
+    marginBottom:20,
     fontSize: 15,
     lineHeight: 24,
     fontWeight: '400',
@@ -83,7 +83,7 @@ const styles = StyleSheet.create({
   content: {
     flex: 1,
     justifyContent: 'space-between',
-    paddingVertical: 24,
+    paddingVertical: 28,
     paddingHorizontal: 24,
   },
   contentHeader: {
@@ -93,7 +93,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff2dd',
     transform: [
       {
-        rotate: '2deg',
+        rotate: '1deg',
       },
     ],
     paddingHorizontal: 4,
